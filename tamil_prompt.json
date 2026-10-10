@@ -1,0 +1,29 @@
+﻿{
+  "subject": "An elderly Tamil woman drawing an intricate rice flour pulli kolam, wearing a traditional madisar in deep maroon and mustard yellow Kanchipuram silk",
+  "setting": {
+    "place": "Chettinad mansion open-air central courtyard with Burmese teak pillars and Athangudi floor tiles",
+    "era": "contemporary rural Tamil Nadu",
+    "time_of_day": "early dawn, Margazhi morning mist"
+  },
+  "lighting": "soft diffused morning skylight with a warm oil lamp (kuthuvilakku) glow in the background",
+  "camera": {
+    "shot": "medium wide shot",
+    "lens": "35mm prime lens",
+    "angle": "slightly high eye-level looking down at the kolam patterns"
+  },
+  "palette": [
+    "deep maroon",
+    "mustard yellow",
+    "terracotta red",
+    "rice flour white"
+  ],
+  "style": "cinematic hyper-realistic documentary photography, authentic textures, rich cultural fidelity",
+  "aspect_ratio": "16:9",
+  "avoid": [
+    "generic north indian attire",
+    "synthetic festival glitter",
+    "modern plastic items",
+    "cartoonish rendering",
+    "over-saturated postcard colors"
+  ]
+}
