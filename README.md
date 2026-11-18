@@ -1,34 +1,37 @@
-# Tamil Kolam JSON Prompt
+# Tamil Kolam: JSON Prompting for Images and Video
 
-## What this project is
+> Structured JSON prompts give consistent, controllable results in image and video generators.
 
-A prompt-writing and media-generation exercise about a Tamil kolam scene. [`tamil_prompt.json`](./tamil_prompt.json) describes the subject, setting, lighting, camera, colors, visual style, aspect ratio, and details to avoid. The folder also contains three generated images and a video.
+ ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Check the JSON
+## Overview
 
-From PowerShell in this folder:
+Instead of a free-text prompt, `tamil_prompt.json` describes the subject, style, colours, composition and motion as structured fields. The same JSON was used to generate three traditional **Tamil kolam** images and a 10-second video, showing how JSON prompting keeps outputs consistent.
 
-```powershell
-python -m json.tool .\tamil_prompt.json
+## Demo
+
+![Kolam 1](tamil_kolam_image_1.png)
+![Kolam 2](tamil_kolam_image_2.png)
+![Kolam 3](tamil_kolam_image_3.png)
+
+## Project structure
+
+```text
+.
+├── tamil_prompt.json        # the JSON prompt
+├── tamil_kolam_image_*.png  # generated images
+└── tamil_kolam_video.mp4    # generated 10-second video
 ```
 
-If the file is valid JSON, Python prints the formatted content. A parsing error points to a place that needs correction.
+## Usage
 
-## What to do
+Validate the JSON (`python -m json.tool tamil_prompt.json`), then paste it into an image or video model that accepts structured prompts.
 
-1. Review the prompt and make sure the scene details match the assignment.
-2. Use the JSON as a guide in an image or video generation tool that accepts prompt text. JSON is not automatically executable by every image-generation tool; copy or adapt the prompt fields as that tool requires.
-3. Review the three images and video for consistency with the prompt and for visual errors.
-4. Keep the generated files that are required by the assignment and include a short note describing which image sequence was used to make the video, if requested.
+## License
 
-Files currently included: `tamil_kolam_image_1.png`, `tamil_kolam_image_2.png`, `tamil_kolam_image_3.png`, and `tamil_kolam_video.mp4`.
+Released under the [MIT License](LICENSE).
 
-## Task completed
+## Author
 
-The JSON prompt describes a Tamil kolam scene with details about the subject, location, time, lighting, camera, colors, style, and things to avoid. Three generated images and a video are saved with the project.
-
-## Beginner task question
-
-**Can you write a clear JSON prompt for an image-generation tool to create a culturally specific Tamil kolam scene, generate three related images, and use them to make a short video?**
-
-Check that your JSON is valid, then adapt its details to the image or video tool you are using. Review the results to see whether they match the prompt.
+**Prasanth Sundararajan**, Senior SRE and AI Engineer  
+[LinkedIn](https://www.linkedin.com/in/prasanth-s-a093a7109/) · [GitHub](https://github.com/prasanth-sundararajan)
